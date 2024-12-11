@@ -1,1 +1,26 @@
-IyBHcmVnIElzZW5iZXJnIENvbnRlbnQgQW5hbHlzaXMKCkEgY29tcHJlaGVuc2l2ZSBhbmFseXNpcyBvZiBHcmVnIElzZW5iZXJnJ3MgWW91VHViZSBjb250ZW50IGFuZCBpbnNpZ2h0cy4KCiMjIFN0cnVjdHVyZQoKYGBgCi90cmFuc2NyaXB0cyAgICAgIC0gUmF3IHZpZGVvIHRyYW5zY3JpcHRzCi9hbmFseXNpcyAgICAgICAgIC0gU3RydWN0dXJlZCBjb250ZW50IGFuYWx5c2lzCi92aWRlb3MgICAgICAgICAgIC0gSW5kaXZpZHVhbCB2aWRlbyBicmVha2Rvd25zCi90cmVuZHMgICAgICAgICAgLSBDcm9zcy12aWRlbyBwYXR0ZXJucyBhbmQgaW5zaWdodHMKYGBgCgojIyBMYXRlc3QgVXBkYXRlcwotIE5vdmVtYmVyIDIwMjQgdmlkZW8gYW5hbHlzaXMgY29tcGxldGVkCi0gRnVsbCB0cmFuc2NyaXB0cyB3aXRoIHNwZWFrZXIgbGFiZWxzCi0gU3RydWN0dXJlZCBpbnNpZ2h0cyBhbmQgcGF0dGVybnMKCiMjIE92ZXJ2aWV3ClRoaXMgcmVwb3NpdG9yeSBjb250YWlucyBkZXRhaWxlZCBhbmFseXNpcyBvZiBHcmVnJ3MgY29udGVudCBpbmNsdWRpbmc6Ci0gR3Vlc3QgcHJvZmlsZXMgYW5kIGV4cGVydGlzZQotIEJ1c2luZXNzIGluc2lnaHRzIGFuZCBzdHJhdGVnaWVzCi0gUmVjdXJyaW5nIHRoZW1lcyBhbmQgcGF0dGVybnMKLSBEaXN0cmlidXRpb24gdGFjdGljcw==
+# Greg Isenberg Content Analysis
+
+Comprehensive analysis and repository for Greg Isenberg's content.
+
+## Structure
+
+```
+/videos        - Individual video analyses
+/transcripts   - Processed transcripts with speaker labels
+/trends        - Cross-video pattern analysis
+/monthly       - Monthly content summaries
+/analysis      - Structured content analysis
+```
+
+## Features
+- Video analysis and transcripts
+- Business insights and strategies
+- Pattern recognition
+- Content organization
+- Technical implementation details
+
+## Content Types
+- Tutorial breakdowns
+- Interview insights
+- Strategy discussions
+- Solo content

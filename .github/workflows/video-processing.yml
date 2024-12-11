@@ -1,29 +1,11 @@
-name: Process New YouTube Videos
-
+name: Video Processing
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'  # Every 12 hours
-  workflow_dispatch:  # Manual trigger
-
+    - cron: "0 */6 * * *"
 jobs:
-  process-videos:
+  process:
+    if: false
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
-        with:
-          python-version: '3.10'
-      - name: Install dependencies
-        run: |
-          pip install selenium beautifulsoup4 youtube-transcript-api
-      - name: Run video processor
-        env:
-          YOUTUBE_CHANNEL: "@GregIsenberg"
-        run: python scripts/process_new_videos.py
-      - name: Commit changes
-        run: |
-          git config --global user.name github-actions
-          git config --global user.email github-actions@github.com
-          git add videos/ transcripts/ analysis/
-          git commit -m "Auto-process new videos" || exit 0
-          git push
+      - run: echo "Workflow disabled"

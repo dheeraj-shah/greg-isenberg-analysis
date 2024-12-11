@@ -1,26 +1,11 @@
-name: Update Video Database
-
+name: Update Videos
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'  # Run every 12 hours
-  workflow_dispatch:  # Manual trigger
-
+    - cron: "0 */6 * * *"
 jobs:
-  update-database:
+  update:
+    if: false
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '16'
-      - name: Install dependencies
-        run: npm install puppeteer
-      - name: Run scraper
-        run: node scripts/scrape_videos.js
-      - name: Update database
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add videos/
-          git commit -m "Update video database" || exit 0
-          git push
+      - run: echo "Workflow disabled"

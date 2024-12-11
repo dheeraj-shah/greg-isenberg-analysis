@@ -5,7 +5,7 @@ on:
     - cron: "0 */6 * * *"
 jobs:
   process:
-    if: false  # Disable workflow
+    if: false
     runs-on: ubuntu-latest
     steps:
       - run: echo "Workflow disabled"

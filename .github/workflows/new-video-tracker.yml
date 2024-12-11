@@ -1,0 +1,28 @@
+name: Track New YouTube Videos
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Run every 6 hours
+
+jobs:
+  check-new-videos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          pip install google-api-python-client PyYAML
+      - name: Check for new videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/check_new_videos.py
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Update video database
+          title: New YouTube video detected
+          body: Automated video database update

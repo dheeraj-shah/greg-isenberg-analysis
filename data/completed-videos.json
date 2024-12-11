@@ -1,0 +1,13 @@
+{
+  "completedVideos": [
+    {
+      "title": "Building Startups with Replit",
+      "videoId": "NBsr3u0z4Hs",
+      "date": "December 2024",
+      "status": "completed",
+      "transcriptPath": "transcripts/2024/replit-startup-tutorial.md",
+      "analysisPath": "analysis/2024/replit-startup-analysis.md"
+    }
+  ],
+  "lastUpdated": "2024-12-11T09:30:00Z"
+}

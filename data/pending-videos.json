@@ -1,0 +1,23 @@
+{
+  "pendingVideos": [
+    {
+      "title": "3 AI app ideas that are goldmines",
+      "url": "https://youtube.com/watch?v=xyz",
+      "date": "December 2024",
+      "status": "queued"
+    },
+    {
+      "title": "How to use AI to build your SaaS startup",
+      "url": "https://youtube.com/watch?v=abc",
+      "date": "December 2024",
+      "status": "queued"
+    },
+    {
+      "title": "Growth Genius Leaks Million Dollar SEO Plan",
+      "url": "https://youtube.com/watch?v=def",
+      "date": "December 2024",
+      "status": "queued"
+    }
+  ],
+  "lastUpdated": "2024-12-11T09:30:00Z"
+}

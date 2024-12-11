@@ -1,0 +1,31 @@
+name: Auto Process Videos
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
+
+jobs:
+  process-videos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install youtube-transcript-api selenium beautifulsoup4
+          
+      - name: Process pending videos
+        run: python scripts/process_pending_videos.py
+        
+      - name: Update lists
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+          git add data/ transcripts/ analysis/
+          git commit -m "Auto process pending videos" || exit 0
+          git push

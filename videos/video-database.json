@@ -1,0 +1,34 @@
+{
+  "2024": {
+    "processed": [
+      {
+        "title": "The Best Article Types for Beginners",
+        "youtube_id": "PQZ3DgNvfoo",
+        "formats": [
+          "Tutorial",
+          "Strategy discussion"
+        ],
+        "insights": {
+          "business": ["Content strategy", "Monetization"],
+          "technical": ["Platform specifics"],
+          "distribution": ["Article promotion"]
+        },
+        "status": "processed",
+        "transcript_path": "transcripts/2024/article-types-beginners.md",
+        "analysis_path": "analysis/2024/article-types-analysis.md"
+      }
+    ],
+    "pending": [
+      {
+        "title": "3 AI app ideas that are goldmines",
+        "date": "December 2024",
+        "status": "queued"
+      },
+      {
+        "title": "How to use AI to build your SaaS startup",
+        "date": "December 2024",
+        "status": "queued"
+      }
+    ]
+  }
+}

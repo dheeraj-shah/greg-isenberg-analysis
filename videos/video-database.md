@@ -1,29 +1,27 @@
 # Greg Isenberg Video Database
 
-## Video List
+## Latest Videos (December 2024)
 
-### Processed Videos
-| Title | YouTube ID | Date | Status |
-|-------|------------|------|--------|
-| Faceless YouTube Channel Guide | tImfZMhBb_k | 2024 | ✅ |
-| 50 Startup Realizations | Qxt9kPUGXEE | 2024 | ✅ |
-| HoldCo Tutorial with Girdley | 3-K_VfHOJhg | 2024 | ✅ |
+| Title | Status | Date |
+|-------|---------|------|
+| 3 AI app ideas that are goldmines | Pending | December 2024 |
+| How to use AI to build your SaaS startup | Pending | December 2024 |
+| Growth Genius Leaks Million Dollar SEO Plan | Pending | December 2024 |
+| Build a high traffic startup using AI, Webflow and Zapier | Pending | December 2024 |
+| How This Guy Makes His Entire Year's Revenue in Black Friday WEEK | Pending | November 2024 |
+| 3 startup ideas from the co-founder of Loom | Pending | November 2024 |
 
-### Pending Processing
-| Title | YouTube ID | Date | Status |
-|-------|------------|------|--------|
-| $7.2M Idea | MkJVb26gOBY | 2024 | ⏳ |
-| AI-Only Startup Guide | PQZ3DgNvfoo | 2024 | ⏳ |
-| Growth Series Video | 7l_XnPXX9Zc | 2024 | ⏳ |
-| Latest Investment Ideas | - | 2024 | ⏳ |
+## Earlier Processed Videos
+| Title | Status | Date |
+|-------|---------|------|
+| The Best Article Types for Beginners | ✅ | November 2024 |
+| What I Learned Growing a $7.2M Creator Business | ✅ | November 2024 |
+| How To Start a Faceless YouTube Channel | ✅ | November 2024 |
+| 50 Realizations After 20 Years in Startups | ✅ | November 2024 |
 
-### Queue
-- Small Business Exit Tips
-- Community College Course Overview
-- Brick Phone Marketing Strategy
-- Fortnite Community Case Study
+## Status Key
+- ✅ Processed
+- ⏳ In Progress
+- 📝 Pending
 
-## Notes
-- ✅ = Fully processed with transcript and analysis
-- ⏳ = In processing queue
-- Status last updated: December 11, 2024
+Last updated: December 11, 2024

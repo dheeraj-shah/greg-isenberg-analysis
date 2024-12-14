@@ -2,10 +2,11 @@ name: Auto Process Videos
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 */6 * * *'
+
 jobs:
   process:
-    if: false
+    if: false  # Disabled
     runs-on: ubuntu-latest
     steps:
       - run: echo "Workflow disabled"
